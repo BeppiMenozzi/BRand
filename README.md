@@ -1,6 +1,7 @@
 # BRand
 Collection of useful static shortcuts that come handy when randomization is needed.
-Do everything you need with one command!
+Do you always have to write loops and store arrays to get a random value different from the previous ones, or to shuffle some integers, or even to get a chance of win that is not simply 50%?
+There's nothing difficult in that, but you may find it faster to use this small library, that makes all the random calculations for you.
 
 ### Setup:
 Add **maven { url "https://jitpack.io" }** in project's build.gradle file.
@@ -20,7 +21,7 @@ BRand is a class with static methods, so you don't have to declare, initialize o
 
 * getIntDifferentFrom() : returns an evenly distributed int, that is different from a list of given ints. Use also getIntCountDifferentFrom() and getIntRangeDifferentFrom()
 
-* getIntArray() : returns an array of elements generated with getInt(). See also getIntRangeArray(), getFloatArray(), getFloatRangeArray(), getDoubleArray(), getDoubleRangeArray(), getBooleanArray(), getBoolean100Array(), getIntArrayDifferentFrom(), getIntCountArrayDifferentFrom(), getIntRangeArrayDifferentFrom()
+* getIntArray() : returns an array of elements generated with getInt(). See also getIntRangeArray(), getFloatArray(), getFloatRangeArray(), getDoubleArray(), getDoubleRangeArray(), getBooleanArray(), getBoolean100Array(), getIntArrayDifferentFrom(), getIntCountArrayDifferentFrom(), getIntRangeArrayDifferentFrom(), getIntArrayAllDifferent()
 
 * getAllNumbersShuffled() : returns an array of all n integers in a range, shuffled. See also getAllNumbersRangeShuffled()
 
