@@ -24,3 +24,13 @@ BRand is a class with static methods, so you don't have to declare, initialize o
 
 ### Todo:
 Geometrical random generator
+
+##LICENSE
+
+This software is provided under the MIT license:<br />
+http://opensource.org/licenses/mit-license.php
+
+
+##Author
+
+[Beppi Menozzi](http://www.beppi.it)
