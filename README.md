@@ -3,12 +3,12 @@ Collection of useful static shortcuts that come handy when randomization is need
 Do you always have to write loops and store arrays to get a random value different from the previous ones, or to shuffle some integers, or even to get a chance of win that is not simply 50%?
 There's nothing difficult in that, but you may find it faster to use this small library, that makes all the random calculations for you.
 
-### Setup:
+### Setup (Gradle)
 Add **maven { url "https://jitpack.io" }** in project's build.gradle file.
 
 Add **compile 'com.github.BeppiMenozzi:BRand:1.0.0'** in module's build.gradle file.
 
-### Usage:
+### Usage
 BRand is a class with static methods, so you don't have to declare, initialize or instantiate anything.
 
 * getInt() : returns an evenly distributed int in the expressed range. See also getIntRange()
@@ -25,15 +25,17 @@ BRand is a class with static methods, so you don't have to declare, initialize o
 
 * getAllNumbersShuffled() : returns an array of all n integers in a range, shuffled. See also getAllNumbersRangeShuffled()
 
-### Todo:
+### Examples
+<img src="Snap269.png">
+
+### Todo
 Geometrical random generator
 
-##LICENSE
+### LICENSE
 
 This software is provided under the MIT license:<br />
 http://opensource.org/licenses/mit-license.php
 
-
-##Author
+### Author
 
 [Beppi Menozzi](http://www.beppi.it)
