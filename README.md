@@ -22,6 +22,8 @@ BRand is a class with static methods, so you don't have to declare, initialize o
 
 * getIntArray() : returns an array of elements generated with getInt(). See also getIntRangeArray(), getFloatArray(), getFloatRangeArray(), getDoubleArray(), getDoubleRangeArray(), getBooleanArray(), getBoolean100Array(), getIntArrayDifferentFrom(), getIntCountArrayDifferentFrom(), getIntRangeArrayDifferentFrom()
 
+* getAllNumbersShuffled() : returns an array of all n integers in a range, shuffled. See also getAllNumbersRangeShuffled()
+
 ### Todo:
 Geometrical random generator
 
