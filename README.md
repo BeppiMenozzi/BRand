@@ -3,6 +3,8 @@ Collection of useful static shortcuts that come handy when randomization is need
 Do you always have to write loops and store arrays to get a random value different from the previous ones, or to shuffle some integers, or even to get a chance of win that is not simply 50%?
 There's nothing difficult in that, but you may find it faster to use this small library, that makes all the random calculations for you.
 
+[![Release](https://jitpack.io/v/BeppiMenozzi/BRand.svg)](https://jitpack.io/#BeppiMenozzi/BRand)
+
 ### Setup (Gradle)
 Add **maven { url "https://jitpack.io" }** in project's build.gradle file.
 
